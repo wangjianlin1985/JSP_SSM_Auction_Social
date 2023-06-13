@@ -1,0 +1,110 @@
+.bidList {
+	width: 99.6%;
+	background: #FFF;
+}
+
+.bidList .ddli {
+	width: 100%;
+	margin-top:2px;
+	clear:left;
+	height:80px;
+}
+
+.bidList .ddli .state {
+	float: right;
+	text-align: right;
+}
+
+.bidList .ddli .state .bidTime {
+	color: #737373;
+	float: right;
+	width: 120px;
+	margin: 28px 0px 0px -20px;
+	position: absolute;
+	height: 18px;
+	line-height: 18px;
+}
+
+
+.bidList .ddli .state .bidState {
+	width: 100px;
+	float: right;
+	border-radius: 3px;
+}
+
+.bidList .ddli .state .bidState span {
+	display: block;
+}
+
+.bidList .ddli .state .bidState .bidOut {
+	margin-top:2px;
+	float: right;
+}
+
+.bidList .ddli .state .bidState .bidOut:after {
+	content: "出局";
+	padding: 2px 10px;
+	color: #FFF;
+	background-color: #CCC;
+	margin-top: 4px;
+	font-size: 14px;
+}
+
+
+
+.bidList .ddli .state .bidState .bidLeader {
+	margin-top:2px;
+	float: right;
+}
+
+.bidList .ddli .state .bidState .bidLeader:after {
+	padding: 2px 10px;
+	color: #FFF;
+	content: "领先";
+	background-color: #fe0100;
+	margin-top: 4px;
+	font-size: 14px;
+}
+
+
+.bidList .ddli .avatar {
+	float: left;
+	width: 50px;
+	height: 45px;
+	margin-right: 7px;
+	position: relative;
+}
+
+.bidList .ddli .avatar img {
+	width: 45px;
+	height: 45px;
+	border: none;
+	border-radius: 50%;
+}
+
+
+.bidList .ddli .bidUser {
+	line-height: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	white-space: nowrap;
+	color: #576B95;
+	float: left;
+	width: 50px;
+}
+
+.bidList .ddli .bidUser .name {
+	line-height: 20px;
+}
+
+.bidList .ddli .bidUser .name a {
+	color: #576B95;
+}
+
+.bidList .ddli .bidUser .price {
+	line-height: 20px;
+	margin-top: 5px;
+	font-size: 15px;
+	color: #fe0100;
+}
+ 
